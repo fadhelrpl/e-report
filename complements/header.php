@@ -4,15 +4,15 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
             <?php $base_url = "/"; ?>
-            <a class="nav-link" href="<?php echo $base_url; ?>skl-php-remake/index.php">Beranda</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>e-report/index.php">Beranda</a>
             </li>
             <li class="nav-item">
             <?php $base_url = "/"; ?>
-            <a class="nav-link" href="<?php echo $base_url; ?>skl-php-remake/crud/create.php">Buat Pengaduan</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>e-report/crud/create.php">Buat Pengaduan</a>
             </li>
             <li class="nav-item">
             <?php $base_url = "/"; ?>
-            <a class="nav-link" href="<?php echo $base_url; ?>skl-php-remake/auth/logout.php" onclick="return confirm('Yakin ingin logout?')">Logout</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>e-report/auth/logout.php" onclick="return confirm('Yakin ingin logout?')">Logout</a>
             </li>
         </ul>
     </div>
