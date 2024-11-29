@@ -46,7 +46,7 @@ if (isset($_POST['create'])) {
                         </div>
                         <div class="form-group">
                             <label for="number">Nomer Hp:</label>
-                            <input type="text" class="form-control" id="nomer_hp" name="nomer_hp"
+                            <input type="number" class="form-control" id="nomer_hp" name="nomer_hp"
                                 placeholder="Masukkan nomor hp Anda" required>
                         </div>
                         <div class="form-group">
