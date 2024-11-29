@@ -58,7 +58,7 @@ if (isset($_POST['id']) && !empty($_POST['id'])) {
                     </div>
                     <div class="form-group">
                         <label for="number">Nomer Hp:</label>
-                        <input type="text" class="form-control" id="nomer_hp" name="nomer_hp"
+                        <input type="number" class="form-control" id="nomer_hp" name="nomer_hp"
                             value="<?php echo $row['nomer_hp']; ?>" placeholder="Masukkan nomer hp Anda" required>
                     </div>
                     <div class="form-group">
