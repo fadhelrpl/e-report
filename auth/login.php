@@ -28,8 +28,6 @@ if( isset($_POST['login']) ) {
 
 <body>
 
-    <?php include '../complements/header.php' ?>
-
     <div class="container mt-5">
         <h1 class="text-center">Login</h1>
         <div class="card">

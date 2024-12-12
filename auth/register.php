@@ -26,8 +26,6 @@ if( isset($_POST['register']) ) {
 
 <body>
 
-    <?php include '../complements/header.php'; ?>
-
     <div class="container mt-5">
         <h1 class="text-center">Pendaftaran</h1>
         <div class="card">
